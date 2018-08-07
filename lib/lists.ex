@@ -10,4 +10,7 @@ defmodule Lists do
   def double([]),    do: []
   def double([h|t]), do: [ 2*h | double(t) ]
 
+  def square([]),    do: []
+  def square([h|t]), do: [ h*h | square(t) ]
+
 end
